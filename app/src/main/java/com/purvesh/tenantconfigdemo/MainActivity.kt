@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         val view: View = binding.root
         setContentView(view)
         binding.apply {
-            tenant = TenantConfig.instance
-            textViewTwo.text = TenantConfig.instance.appName
+            tenant = TenantConfig()
+            textViewTwo.text = TenantConfig().appName
         }
     }
 }
