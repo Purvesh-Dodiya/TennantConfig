@@ -1,10 +1,10 @@
-package com.purvesh.tenentconfigdemo
+package com.purvesh.tenantconfigdemo
 
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.purvesh.tenentconfigdemo.databinding.ActivityMainBinding
+import com.purvesh.tenantconfigdemo.databinding.ActivityMainBinding
 import config.TenantConfig
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
        val binding = ActivityMainBinding.inflate(layoutInflater)
         val view: View = binding.root
         setContentView(view)
-        binding.tenant = TenantConfig.instance
+        binding.apply {
+            tenant = TenantConfig.instance
+            textViewTwo.text = TenantConfig.instance.appName
+        }
     }
 }

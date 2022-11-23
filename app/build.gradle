@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.purvesh.tenentconfigdemo'
-    compileSdk 32
+    namespace 'com.purvesh.tenantconfigdemo'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.purvesh.tenentconfigdemo"
+        applicationId "com.purvesh.tenantconfigdemo"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
