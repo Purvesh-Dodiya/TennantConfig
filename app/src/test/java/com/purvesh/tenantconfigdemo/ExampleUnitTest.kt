@@ -1,4 +1,4 @@
-package com.purvesh.tenentconfigdemo
+package com.purvesh.tenantconfigdemo
 
 import org.junit.Test
 

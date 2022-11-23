@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "TenentConfigDemo"
+rootProject.name = "TenantConfigDemo"
 include ':app'

@@ -1,5 +1,5 @@
 package config
-import com.purvesh.tenentconfigdemo.DefaultConfig
+import com.purvesh.tenantconfigdemo.DefaultConfig
 
 open class TenantConfig : DefaultConfig() {
 
